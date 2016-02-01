@@ -22,6 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="MotionSensor.py" />
     <Compile Include="Temperature.py" />
     <Compile Include="LedBlink.py" />
   </ItemGroup>
