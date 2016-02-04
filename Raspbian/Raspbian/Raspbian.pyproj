@@ -23,6 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="MotionSensor.py" />
+    <Compile Include="0SampleCode.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Temperature.py" />
     <Compile Include="LedBlink.py" />
   </ItemGroup>
