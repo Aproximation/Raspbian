@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>20f827aa-b0e1-4eb9-8690-44be03d2f5a4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>LedBlink.py</StartupFile>
+    <StartupFile>WwwUsage.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,12 +22,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Windows.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MotionSensor.py" />
     <Compile Include="0SampleCode.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Temperature.py" />
     <Compile Include="LedBlink.py" />
+    <Compile Include="WwwUsage.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

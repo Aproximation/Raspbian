@@ -5,6 +5,14 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Raspbian", "Raspbian\Raspbian.pyproj", "{20F827AA-B0E1-4EB9-8690-44BE03D2F5A4}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "WpfAppTest", "WpfAppTest\WpfAppTest.pyproj", "{D0D36BC6-20EB-46E7-869D-2404E9DB8234}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BottleWebProjectTest", "BottleWebProjectTest\BottleWebProjectTest.pyproj", "{1FEDBCB7-1249-4E9E-B62A-56D87B7DA001}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "FlaskWebProjectTest", "FlaskWebProjectTest\FlaskWebProjectTest.pyproj", "{24779915-7333-4513-9550-179DE4B2DA3B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DjangoWebProjectTest", "DjangoWebProjectTest\DjangoWebProjectTest.pyproj", "{450249C4-2DBC-4EB3-947D-5791C965BD3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +21,20 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{20F827AA-B0E1-4EB9-8690-44BE03D2F5A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{20F827AA-B0E1-4EB9-8690-44BE03D2F5A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D36BC6-20EB-46E7-869D-2404E9DB8234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D36BC6-20EB-46E7-869D-2404E9DB8234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FEDBCB7-1249-4E9E-B62A-56D87B7DA001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FEDBCB7-1249-4E9E-B62A-56D87B7DA001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FEDBCB7-1249-4E9E-B62A-56D87B7DA001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FEDBCB7-1249-4E9E-B62A-56D87B7DA001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24779915-7333-4513-9550-179DE4B2DA3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24779915-7333-4513-9550-179DE4B2DA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24779915-7333-4513-9550-179DE4B2DA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24779915-7333-4513-9550-179DE4B2DA3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{450249C4-2DBC-4EB3-947D-5791C965BD3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{450249C4-2DBC-4EB3-947D-5791C965BD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{450249C4-2DBC-4EB3-947D-5791C965BD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{450249C4-2DBC-4EB3-947D-5791C965BD3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
