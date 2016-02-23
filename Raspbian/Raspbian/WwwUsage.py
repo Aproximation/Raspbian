@@ -33,10 +33,17 @@ def HostWebService():
     #use on environment with installed python-bottle
     from bottle import route, run, template
     from datetime import datetime
+    @route('/')
+    def index(name='time'):
+        dt = datetime.now()
+        time="{:%Y-%m-%d %H:%M:%%S}".format(dt)
+        return template('<b>Date now: {{t}}</b>', t=time)
+    run(host='10.0.0.222', port=80)
     
 
 def __init__():
     #getWeb("https://www.google.pl")
-    sendMail()    
+    #sendMail()    
+    HostWebService()
 
 __init__()
