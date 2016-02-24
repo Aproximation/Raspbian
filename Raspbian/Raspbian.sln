@@ -13,6 +13,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "FlaskWebProjectTest", "Flas
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DjangoWebProjectTest", "DjangoWebProjectTest\DjangoWebProjectTest.pyproj", "{450249C4-2DBC-4EB3-947D-5791C965BD3E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frameworks", "Frameworks", "{BF23ABFF-6962-4E18-8E53-15C02D9771F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,5 +40,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0D36BC6-20EB-46E7-869D-2404E9DB8234} = {BF23ABFF-6962-4E18-8E53-15C02D9771F7}
+		{1FEDBCB7-1249-4E9E-B62A-56D87B7DA001} = {BF23ABFF-6962-4E18-8E53-15C02D9771F7}
+		{24779915-7333-4513-9550-179DE4B2DA3B} = {BF23ABFF-6962-4E18-8E53-15C02D9771F7}
+		{450249C4-2DBC-4EB3-947D-5791C965BD3E} = {BF23ABFF-6962-4E18-8E53-15C02D9771F7}
 	EndGlobalSection
 EndGlobal
